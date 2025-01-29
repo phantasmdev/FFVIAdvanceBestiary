@@ -19,7 +19,8 @@ Enemies can also be referenced by the index of their object, as well as each pie
 
 For example, to get the Guard's HP, you can code in the following:
 
-<code language="Python">import enemydata as Bestiary
+<code language="Python">
+import enemydata as Bestiary
 print(Bestiary.Bestiary.bestiary_list[0].health)
 </code>
 
